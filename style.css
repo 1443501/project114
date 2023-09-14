@@ -1,0 +1,19 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-danger:hover{
+    background-color: light pink;
+
+}
+
+canvas{
+    animation-name: picture;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes picture{
+    from{box-shadow: 1px 1px 38px darkblue;}
+    to{box-shadow: 1px 1px 38px cyan;}
+}
